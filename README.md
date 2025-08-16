@@ -40,10 +40,4 @@ Assumptions and caveats
 - The `mlxtend` library is used for FPM and association rules and may require C extensions; wheels are available for common Python versions.
 - The notebooks rely on date columns; if the CSVs have unexpected date formats, the provided robust parser attempts multiple formats and fills missing with medians.
 
-Suggested next steps
-- Add a small example script to run a subset of the notebooks automatically and save evaluation CSVs.
-- Pin dependency versions after a successful run and add a few unit tests for the helper functions.
 
-If you'd like, I can:
-- Run a quick dependency installation and smoke-run the notebooks (fast mode) and report any missing packages or runtime errors.
-- Add a script to produce evaluation CSV outputs for each model.
